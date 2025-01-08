@@ -10,3 +10,6 @@ vim.keymap.set("n", "Y", "y$", { desc = "Yank to the end of the line" })
 vim.keymap.set("n", "<leader>r", ":CompetiTest run<CR>", { desc = "Run testcases" })
 vim.keymap.set("n", "<leader>t", ":CompetiTest receive problem<CR>", { desc = "Receive a problem" })
 vim.keymap.set("n", "<leader><CR>", ":CompetiTest add_testcase<CR>", { desc = "Add a new testcase" })
+
+-- for codeRunner
+vim.keymap.set("n", "<leader>k", ":RunFile float<ESC>", { desc = "Run the current file" })
